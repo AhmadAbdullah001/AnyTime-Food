@@ -1,0 +1,206 @@
+         *
+        {
+            opacity: 99.9%;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: white;
+        }
+    .Heading
+    {
+        background-image: url('ImagesUsed/create-food-website.jpg');
+        background-size: 100% 200% ;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Links
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        background-color:#a39b9b75;
+        border: 1px solid rgba(130, 128, 128, 0.083);
+        border-radius: 50px ;
+        font-size: 30px;
+        margin-left: 2em;
+    }
+    .Link
+    { 
+        
+        margin: 1em;
+       color: black;
+        text-decoration: none;
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        transition-duration: 1s;
+    }
+    .Link:hover
+    {
+        color:black;
+        border: 1px solid black;
+        border-radius: 40px;
+       transform: scale(2);
+        background-color: white;
+        padding: 2px;
+    }
+    .Content
+    {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        font-family: cursive;
+        justify-content: center;
+        font-size: 25px;
+        border-radius: 20px;
+        
+    }
+    .Services
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #SHead
+    { display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .Services
+    {
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 200px; */
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .Service
+    {
+        border: solid 4px black;
+        
+    }
+    .img
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border: 0px solid white;
+        border-radius: 100px;
+
+    }
+    .NHeadings
+    {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: black;
+    transition-duration: 1s;
+    }
+    .NHeadings:hover
+    {
+        background-color: white;
+       border: solid 2px black; 
+       border-radius: 50px;
+       transform: scale(1.1);
+    }
+    .Clients
+    {
+     background-image:  url('ImagesUsed/vivid-blurred-colorful-background_58702-2545.jpg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     margin-top: 10px;
+     height: 300px;
+     box-shadow: 0px 0px 10px blue;
+    }
+    #SHead
+    {
+        display: flex;
+    }
+    .AllClients
+    {
+       display: flex;
+       justify-content: space-evenly;
+    }
+    .Contact
+    {
+        display: flex;
+        flex-wrap: wrap;
+       
+        justify-content: center;
+
+    }
+    .ContactUs
+    {
+        background-image: url('ImagesUsed/Work.jpeg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        box-shadow: 0px 0px 15px gray;
+    }
+    .CHead
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .in
+    {
+        font-size: 15px;
+        border: solid lightgray 1px;
+        width: 120px;
+        padding: 10px;
+        border-radius: 10px;
+        transition-duration: 1s;
+        border: solid black 2px;
+    }
+    .in:hover
+    {
+        border-radius: 20px;
+        transform: scale(2);
+
+    }
+    .CHead
+    {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .Submit
+    {
+        margin-top: 20px;
+        height: 30px;
+        width: 100px;
+        margin-left: 40px;
+    }
+    .Submit
+    {
+        width: 100px;
+        height: 30px;
+        /* font-size: 100px; */
+        border-radius: 90px;font-family: inherit;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 1;
+        box-shadow: 6px 6px 12px #c5c5c5,-6px -6px 12px #ffffff;
+    }
+    .Submit::before
+    {
+        content: '';
+        width: 0;
+        height: 30em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to right,#0fd850 0%,#f9f047 100%);
+        transition: 1s ease;
+        display: block;
+        z-index: -1;
+    }
+    .Submit:hover::before
+    {
+        width: 9em;
+
+    }
